@@ -1,0 +1,12 @@
+server:
+  port: 5540
+netty:
+  server:
+    enable: 1
+    rtsp:
+      port: 554
+    bossNum: 1
+    workNum: 1
+spring:
+  application:
+    name: whayer.stream.service
